@@ -19,7 +19,6 @@ This tool automates the routine task of checking critical system services (like 
     cd auto-admin-tool
     ```
 
-
 2. **Set up virtual environment (recommended):**
     ```
     python3 -m venv venv
@@ -27,19 +26,20 @@ This tool automates the routine task of checking critical system services (like 
     ```
 
 3. **Install dependencies:**
-```
-pip install -r requirements.txt
-```
-4. **Environment Variables:**
-Rename .env.example to .env
-Set your ADMIN_TOKEN and other credentials.
-5. **🚀 Usage**
-Run the script manually or set it up as a Cron job:
-```
-python3 src/admin_tool.py
-```
+    ```
+    pip install -r requirements.txt
+    ```
 
-##📊 Technical Stack
+4. **Environment Variables:**
+   Rename .env.example to .env
+   Set your ADMIN_TOKEN and other credentials.
+5. **🚀 Usage**
+   Run the script manually or set it up as a Cron job:
+    ```
+    python3 src/admin_tool.py
+    ```
+
+## 📊 Technical Stack
 **Language:** Python 3.10+
 **Libraries:** python-dotenv, requests
 **Formats:** JSON, .env
