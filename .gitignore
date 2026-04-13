@@ -1,0 +1,21 @@
+.env
+
+# Временные отчеты и логи работы скрипта
+health_check.json
+*.log
+
+# Кэш Python 
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Виртуальное окружение 
+venv/
+.venv/
+env/
+
+# Настройки редакторов кода (VS Code, PyCharm и др.)
+.vscode/
+.idea/
+*.swp
