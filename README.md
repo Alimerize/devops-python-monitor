@@ -14,16 +14,17 @@ This tool automates the routine task of checking critical system services (like 
 ## ⚙️ Installation & Setup
 
 1. **Clone the repo:**
-   ```
-   git clone https://github.com
-   cd auto-admin-tool
-   ```
+    ```
+    git clone https://github.com
+    cd auto-admin-tool
+    ```
 
 
 2. **Set up virtual environment (recommended):**
-
-python3 -m venv venv
-source venv/bin/activate
+    ```
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
 
 3. **Install dependencies:**
 ```
